@@ -49,6 +49,11 @@
     margin-top: -125px;
   }
 
+  .hero h1 {
+    margin-top: 225px;
+    margin-bottom: 100px;
+  }
+
   table {
     margin: auto;
     margin-top: 50px;
