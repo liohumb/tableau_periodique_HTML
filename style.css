@@ -169,11 +169,11 @@
 
   .description .gauche {
     float: left;
-    width:60%;
+    width:50%;
   }
 
   .description .droite {
-    margin-left:60%;
+    margin-left:50%;
   }
 
   h2 {
@@ -189,8 +189,6 @@
 /* PROPRIETE CSS FOOTER */ 
   .footer-basic {
     padding:40px 0;
-    background-color:#ffffff;
-    color:#4b4c4d;
     margin-top: 100px;
   }
   
@@ -199,7 +197,6 @@
     list-style:none;
     text-align:center;
     font-size:18px;
-    line-height:1.6;
     margin-bottom:0;
   }
   
@@ -210,11 +207,6 @@
   .footer-basic ul a {
     color:inherit;
     text-decoration:none;
-    opacity:0.8;
-  }
-  
-  .footer-basic ul a:hover {
-    opacity:1;
   }
   
   .footer-basic .copyright {
@@ -224,4 +216,9 @@
     font-size:13px;
     color:#aaa;
     margin-bottom:0;
+  }
+
+  .footer-basic .copyright a {
+    text-decoration: none;
+    color: #aaa;
   }
