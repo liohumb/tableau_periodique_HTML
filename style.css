@@ -141,6 +141,7 @@
     content: "";
     flex: 1;
     margin: 0 .5em;
+    opacity: 0.3;
   }
 /* PROPRIETE CSS MAIN */
   .main .main_content {
@@ -177,7 +178,7 @@
   }
 
   h2 {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   p {
@@ -185,6 +186,7 @@
     padding-right: 200px;
     font-style: italic;
     font-size: 20px;
+    opacity: 0.8;
   }
 /* PROPRIETE CSS FOOTER */ 
   .footer-basic {
