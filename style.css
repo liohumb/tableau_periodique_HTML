@@ -1,4 +1,4 @@
-
+/* CSS GLOBAL */
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +7,12 @@
     text-decoration: none;
     
   }
-  
+  /* SEPARATION DIV (NAVBAR) & DIV (HERO & MAIN) EN DEUX COLONNES */
   .main {
     display: flex;
     margin-right: 100px;
   }
-
+/* PROPRIETE CSS NAVBAR */
   .main .navbar {
     width: 200px;
     height: 100%;
@@ -43,7 +43,7 @@
     display: block;
     color: black;
   }
-  
+  /* PROPRIETE CSS HERO */
   .hero {
     text-align: center;
     margin-top: -125px;
@@ -65,7 +65,7 @@
     height: 60px;
     width: 60px;
   }
-
+/* COULEUR TABLEAU */
   .vertClaire
   {
     background-color: chartreuse;
@@ -98,7 +98,7 @@
   .rose {
     background-color: hotpink;
   }
-
+/* PROPRIETE CSS DESCRIPTION ELEMENTS TABLEAU */
   .descrip {
     position: relative; 
     cursor: help;
@@ -129,7 +129,7 @@
   [aria-label]:focus {
     outline: none;
   }
-
+/* PROPRIETE CSS TITRES DIFFERENTES BALISES */
   .hr {
     align-items: center;
     display: flex;
@@ -142,7 +142,7 @@
     flex: 1;
     margin: 0 .5em;
   }
-
+/* PROPRIETE CSS MAIN */
   .main .main_content {
     width: 100%;
     margin-left: 250px;
@@ -185,4 +185,43 @@
     padding-right: 200px;
     font-style: italic;
     font-size: 20px;
+  }
+/* PROPRIETE CSS FOOTER */ 
+  .footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+    margin-top: 100px;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    margin-left: 200px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
   }
